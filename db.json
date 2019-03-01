@@ -1,14 +1,207 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+
+    "status": "OK",
+
+    "header": {},
+
+    "payload": [
+
+        {
+
+            "field": "Cancellations Reason",
+
+            "value": [
+
+                {
+
+                    "field": "UNPAID AGED",
+
+                    "count": 3457
+
+                },
+
+                {
+
+                    "field": "SUSPICIOUS ACTIVITY",
+
+                    "count": 968
+
+                },
+
+                {
+
+                    "field": " ",
+
+                    "count": 221
+
+                },
+
+                {
+
+                    "field": "SELLER REJECTION",
+
+                    "count": 72
+
+                },
+
+                {
+
+                    "field": "CUSTOMER_ERROR",
+
+                    "count": 36
+
+                },
+
+                {
+
+                    "field": "PARTIALIZATION_NOT_RESEPECTED",
+
+                    "count": 27
+
+                },
+
+                {
+
+                    "field": "MIRAKL REFUND 15",
+
+                    "count": 17
+
+                },
+
+                {
+
+                    "field": "PROMO PROBLEM",
+
+                    "count": 10
+
+                },
+
+                {
+
+                    "field": "ERROR_CREATING_SALE",
+
+                    "count": 9
+
+                },
+
+                {
+
+                    "field": "SALES ERROR",
+
+                    "count": 6
+
+                },
+
+                {
+
+                    "field": "SYSTEM_NOT_REGISTER_CONFIRM_PAYMENT",
+
+                    "count": 4
+
+                },
+
+                {
+
+                    "field": "ACCEPTANCE TIMEOUT",
+
+                    "count": 3
+
+                },
+
+                {
+
+                    "field": "DUPLICATE_ORDER",
+
+                    "count": 3
+
+                },
+
+                {
+
+                    "field": "MIRAKL REFUND 16",
+
+                    "count": 3
+
+                },
+
+                {
+
+                    "field": "NO_INVENTORY",
+
+                    "count": 1
+
+                },
+
+                {
+
+                    "field": "ADVT_OR_MISLEAD_ERROR",
+
+                    "count": 1
+
+                }
+
+            ]
+
+        },
+
+        {
+
+            "field": "Cancellations Source",
+
+            "value": [
+
+                {
+
+                    "field": "Unpaid Aged",
+
+                    "count": 3461
+
+               },
+
+                {
+
+                    "field": "Fraud",
+
+                    "count": 968
+
+                },
+
+                {
+
+                    "field": "Others",
+
+                    "count": 248
+
+                },
+
+                {
+
+                    "field": "3P",
+
+                    "count": 95
+
+                },
+
+                {
+
+                    "field": "CALL CENTER",
+
+                    "count": 65
+
+                },
+
+                {
+
+                    "field": "No Inventory",
+
+                    "count": 1
+
+                }
+
+            ]
+
+        }
+
+    ]
+
 }
